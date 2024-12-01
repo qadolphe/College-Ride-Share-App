@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		775FB4DB2CFD2B210068E0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775FB4C22CFD2B1C0068E0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775FB4C92CFD2B1C0068E0E1;
+			remoteInfo = "College Ride Share";
+		};
+		775FB4E52CFD2B210068E0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775FB4C22CFD2B1C0068E0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775FB4C92CFD2B1C0068E0E1;
+			remoteInfo = "College Ride Share";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		775FB4CA2CFD2B1C0068E0E1 /* College Ride Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Ride Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775FB4DA2CFD2B210068E0E1 /* College Ride ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College Ride ShareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775FB4E42CFD2B210068E0E1 /* College Ride ShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College Ride ShareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		775FB4CC2CFD2B1C0068E0E1 /* College Ride Share */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "College Ride Share";
+			sourceTree = "<group>";
+		};
+		775FB4DD2CFD2B210068E0E1 /* College Ride ShareTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "College Ride ShareTests";
+			sourceTree = "<group>";
+		};
+		775FB4E72CFD2B210068E0E1 /* College Ride ShareUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "College Ride ShareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775FB4C72CFD2B1C0068E0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FB4D72CFD2B210068E0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FB4E12CFD2B210068E0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775FB4C12CFD2B1C0068E0E1 = {
+			isa = PBXGroup;
+			children = (
+				775FB4CC2CFD2B1C0068E0E1 /* College Ride Share */,
+				775FB4DD2CFD2B210068E0E1 /* College Ride ShareTests */,
+				775FB4E72CFD2B210068E0E1 /* College Ride ShareUITests */,
+				775FB4CB2CFD2B1C0068E0E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775FB4CB2CFD2B1C0068E0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775FB4CA2CFD2B1C0068E0E1 /* College Ride Share.app */,
+				775FB4DA2CFD2B210068E0E1 /* College Ride ShareTests.xctest */,
+				775FB4E42CFD2B210068E0E1 /* College Ride ShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775FB4C92CFD2B1C0068E0E1 /* College Ride Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775FB4EE2CFD2B210068E0E1 /* Build configuration list for PBXNativeTarget "College Ride Share" */;
+			buildPhases = (
+				775FB4C62CFD2B1C0068E0E1 /* Sources */,
+				775FB4C72CFD2B1C0068E0E1 /* Frameworks */,
+				775FB4C82CFD2B1C0068E0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				775FB4CC2CFD2B1C0068E0E1 /* College Ride Share */,
+			);
+			name = "College Ride Share";
+			packageProductDependencies = (
+			);
+			productName = "College Ride Share";
+			productReference = 775FB4CA2CFD2B1C0068E0E1 /* College Ride Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775FB4D92CFD2B210068E0E1 /* College Ride ShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775FB4F12CFD2B210068E0E1 /* Build configuration list for PBXNativeTarget "College Ride ShareTests" */;
+			buildPhases = (
+				775FB4D62CFD2B210068E0E1 /* Sources */,
+				775FB4D72CFD2B210068E0E1 /* Frameworks */,
+				775FB4D82CFD2B210068E0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775FB4DC2CFD2B210068E0E1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				775FB4DD2CFD2B210068E0E1 /* College Ride ShareTests */,
+			);
+			name = "College Ride ShareTests";
+			packageProductDependencies = (
+			);
+			productName = "College Ride ShareTests";
+			productReference = 775FB4DA2CFD2B210068E0E1 /* College Ride ShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775FB4E32CFD2B210068E0E1 /* College Ride ShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775FB4F42CFD2B210068E0E1 /* Build configuration list for PBXNativeTarget "College Ride ShareUITests" */;
+			buildPhases = (
+				775FB4E02CFD2B210068E0E1 /* Sources */,
+				775FB4E12CFD2B210068E0E1 /* Frameworks */,
+				775FB4E22CFD2B210068E0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775FB4E62CFD2B210068E0E1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				775FB4E72CFD2B210068E0E1 /* College Ride ShareUITests */,
+			);
+			name = "College Ride ShareUITests";
+			packageProductDependencies = (
+			);
+			productName = "College Ride ShareUITests";
+			productReference = 775FB4E42CFD2B210068E0E1 /* College Ride ShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775FB4C22CFD2B1C0068E0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					775FB4C92CFD2B1C0068E0E1 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					775FB4D92CFD2B210068E0E1 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 775FB4C92CFD2B1C0068E0E1;
+					};
+					775FB4E32CFD2B210068E0E1 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 775FB4C92CFD2B1C0068E0E1;
+					};
+				};
+			};
+			buildConfigurationList = 775FB4C52CFD2B1C0068E0E1 /* Build configuration list for PBXProject "College Ride Share" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775FB4C12CFD2B1C0068E0E1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 775FB4CB2CFD2B1C0068E0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775FB4C92CFD2B1C0068E0E1 /* College Ride Share */,
+				775FB4D92CFD2B210068E0E1 /* College Ride ShareTests */,
+				775FB4E32CFD2B210068E0E1 /* College Ride ShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775FB4C82CFD2B1C0068E0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FB4D82CFD2B210068E0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FB4E22CFD2B210068E0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775FB4C62CFD2B1C0068E0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FB4D62CFD2B210068E0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FB4E02CFD2B210068E0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775FB4DC2CFD2B210068E0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775FB4C92CFD2B1C0068E0E1 /* College Ride Share */;
+			targetProxy = 775FB4DB2CFD2B210068E0E1 /* PBXContainerItemProxy */;
+		};
+		775FB4E62CFD2B210068E0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775FB4C92CFD2B1C0068E0E1 /* College Ride Share */;
+			targetProxy = 775FB4E52CFD2B210068E0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		775FB4EC2CFD2B210068E0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775FB4ED2CFD2B210068E0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775FB4EF2CFD2B210068E0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"College Ride Share/Preview Content\"";
+				DEVELOPMENT_TEAM = 64GRGCS25S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwatRides.College-Ride-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775FB4F02CFD2B210068E0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"College Ride Share/Preview Content\"";
+				DEVELOPMENT_TEAM = 64GRGCS25S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwatRides.College-Ride-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		775FB4F22CFD2B210068E0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64GRGCS25S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwatRides.College-Ride-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/College Ride Share.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/College Ride Share";
+			};
+			name = Debug;
+		};
+		775FB4F32CFD2B210068E0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64GRGCS25S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwatRides.College-Ride-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/College Ride Share.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/College Ride Share";
+			};
+			name = Release;
+		};
+		775FB4F52CFD2B210068E0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64GRGCS25S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwatRides.College-Ride-ShareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "College Ride Share";
+			};
+			name = Debug;
+		};
+		775FB4F62CFD2B210068E0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64GRGCS25S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwatRides.College-Ride-ShareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "College Ride Share";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775FB4C52CFD2B1C0068E0E1 /* Build configuration list for PBXProject "College Ride Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775FB4EC2CFD2B210068E0E1 /* Debug */,
+				775FB4ED2CFD2B210068E0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775FB4EE2CFD2B210068E0E1 /* Build configuration list for PBXNativeTarget "College Ride Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775FB4EF2CFD2B210068E0E1 /* Debug */,
+				775FB4F02CFD2B210068E0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775FB4F12CFD2B210068E0E1 /* Build configuration list for PBXNativeTarget "College Ride ShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775FB4F22CFD2B210068E0E1 /* Debug */,
+				775FB4F32CFD2B210068E0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775FB4F42CFD2B210068E0E1 /* Build configuration list for PBXNativeTarget "College Ride ShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775FB4F52CFD2B210068E0E1 /* Debug */,
+				775FB4F62CFD2B210068E0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775FB4C22CFD2B1C0068E0E1 /* Project object */;
+}
