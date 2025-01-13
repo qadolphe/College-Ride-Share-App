@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		775FB50E2CFF61D20068E0E1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 775FB50D2CFF61D20068E0E1 /* FirebaseAnalytics */; };
+		775FB5102CFF61D20068E0E1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 775FB50F2CFF61D20068E0E1 /* FirebaseAuth */; };
+		775FB5122CFF61D20068E0E1 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 775FB5112CFF61D20068E0E1 /* FirebaseCore */; };
+		775FB5142CFF61D20068E0E1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 775FB5132CFF61D20068E0E1 /* FirebaseFirestore */; };
+		775FB5242D034D2F0068E0E1 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 775FB5232D034D2F0068E0E1 /* GoogleSignIn */; };
+		775FB5262D034D2F0068E0E1 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 775FB5252D034D2F0068E0E1 /* GoogleSignInSwift */; };
+		77D1C7B22D31A1A100734D07 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 77D1C7B12D31A1A100734D07 /* StreamChat */; };
+		77D1C7B42D31A1A100734D07 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 77D1C7B32D31A1A100734D07 /* StreamChatUI */; };
+		77D1C7B82D31E61800734D07 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 77D1C7B72D31E61800734D07 /* StreamChatUI */; };
+		77D1C7BB2D31EC0100734D07 /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 77D1C7BA2D31EC0100734D07 /* StreamChatSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		775FB4DB2CFD2B210068E0E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +42,30 @@
 		775FB4E42CFD2B210068E0E1 /* College Ride ShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College Ride ShareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		776DF9402D1A0A8600C3CC28 /* Exceptions for "College Ride Share" folder in "College Ride ShareTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				credentials.plist,
+			);
+			target = 775FB4D92CFD2B210068E0E1 /* College Ride ShareTests */;
+		};
+		776DF9412D1A0A8600C3CC28 /* Exceptions for "College Ride Share" folder in "College Ride ShareUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				credentials.plist,
+			);
+			target = 775FB4E32CFD2B210068E0E1 /* College Ride ShareUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		775FB4CC2CFD2B1C0068E0E1 /* College Ride Share */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				776DF9402D1A0A8600C3CC28 /* Exceptions for "College Ride Share" folder in "College Ride ShareTests" target */,
+				776DF9412D1A0A8600C3CC28 /* Exceptions for "College Ride Share" folder in "College Ride ShareUITests" target */,
+			);
 			path = "College Ride Share";
 			sourceTree = "<group>";
 		};
@@ -52,6 +86,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775FB5242D034D2F0068E0E1 /* GoogleSignIn in Frameworks */,
+				775FB50E2CFF61D20068E0E1 /* FirebaseAnalytics in Frameworks */,
+				775FB5142CFF61D20068E0E1 /* FirebaseFirestore in Frameworks */,
+				77D1C7BB2D31EC0100734D07 /* StreamChatSwiftUI in Frameworks */,
+				775FB5262D034D2F0068E0E1 /* GoogleSignInSwift in Frameworks */,
+				77D1C7B22D31A1A100734D07 /* StreamChat in Frameworks */,
+				775FB5122CFF61D20068E0E1 /* FirebaseCore in Frameworks */,
+				77D1C7B82D31E61800734D07 /* StreamChatUI in Frameworks */,
+				775FB5102CFF61D20068E0E1 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D1C7B42D31A1A100734D07 /* StreamChatUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +156,15 @@
 			);
 			name = "College Ride Share";
 			packageProductDependencies = (
+				775FB50D2CFF61D20068E0E1 /* FirebaseAnalytics */,
+				775FB50F2CFF61D20068E0E1 /* FirebaseAuth */,
+				775FB5112CFF61D20068E0E1 /* FirebaseCore */,
+				775FB5132CFF61D20068E0E1 /* FirebaseFirestore */,
+				775FB5232D034D2F0068E0E1 /* GoogleSignIn */,
+				775FB5252D034D2F0068E0E1 /* GoogleSignInSwift */,
+				77D1C7B12D31A1A100734D07 /* StreamChat */,
+				77D1C7B72D31E61800734D07 /* StreamChatUI */,
+				77D1C7BA2D31EC0100734D07 /* StreamChatSwiftUI */,
 			);
 			productName = "College Ride Share";
 			productReference = 775FB4CA2CFD2B1C0068E0E1 /* College Ride Share.app */;
@@ -158,6 +211,7 @@
 			);
 			name = "College Ride ShareUITests";
 			packageProductDependencies = (
+				77D1C7B32D31A1A100734D07 /* StreamChatUI */,
 			);
 			productName = "College Ride ShareUITests";
 			productReference = 775FB4E42CFD2B210068E0E1 /* College Ride ShareUITests.xctest */;
@@ -195,6 +249,12 @@
 			);
 			mainGroup = 775FB4C12CFD2B1C0068E0E1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				775FB50C2CFF61D20068E0E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				775FB5222D034D2F0068E0E1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				77D1C7B02D31A1A100734D07 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+				77D1C7B92D31EC0100734D07 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 775FB4CB2CFD2B1C0068E0E1 /* Products */;
 			projectDirPath = "";
@@ -321,6 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -378,6 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -399,11 +461,13 @@
 				DEVELOPMENT_TEAM = 64GRGCS25S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "College-Ride-Share-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,11 +492,13 @@
 				DEVELOPMENT_TEAM = 64GRGCS25S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "College-Ride-Share-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -558,6 +624,94 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		775FB50C2CFF61D20068E0E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+		775FB5222D034D2F0068E0E1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		77D1C7B02D31A1A100734D07 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-chat-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.69.0;
+			};
+		};
+		77D1C7B92D31EC0100734D07 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-chat-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.69.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		775FB50D2CFF61D20068E0E1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 775FB50C2CFF61D20068E0E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		775FB50F2CFF61D20068E0E1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 775FB50C2CFF61D20068E0E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		775FB5112CFF61D20068E0E1 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 775FB50C2CFF61D20068E0E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		775FB5132CFF61D20068E0E1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 775FB50C2CFF61D20068E0E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		775FB5232D034D2F0068E0E1 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 775FB5222D034D2F0068E0E1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		775FB5252D034D2F0068E0E1 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 775FB5222D034D2F0068E0E1 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		77D1C7B12D31A1A100734D07 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77D1C7B02D31A1A100734D07 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		77D1C7B32D31A1A100734D07 /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77D1C7B02D31A1A100734D07 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+		77D1C7B72D31E61800734D07 /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77D1C7B02D31A1A100734D07 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+		77D1C7BA2D31EC0100734D07 /* StreamChatSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77D1C7B92D31EC0100734D07 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */;
+			productName = StreamChatSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 775FB4C22CFD2B1C0068E0E1 /* Project object */;
 }
