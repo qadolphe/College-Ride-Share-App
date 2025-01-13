@@ -3,28 +3,25 @@
 ## Screenshots
 
 ### Homescreen
-![Homescreen](Images/Homescreen.png)
+<img src="Images/Homescreen.png" alt="Homescreen" width="300">
 
 ### When to Leave
-![When to Leave](Images/WhenToLeave.png)
+<img src="Images/WhenToLeave.png" alt="When to Leave" width="300">
 
 ### Ride Details
-![Ride Details](Images/RideDetails.png)
+<img src="Images/RideDetails.png" alt="Ride Details" width="300">
 
 ### Confirm Carpool
-![Confirm Carpool](Images/ConfirmCarpool.png)
+<img src="Images/ConfirmCarpool.png" alt="Confirm Carpool" width="300">
 
 ### Send Request
-![Send Request](Images/SendRequest.png)
+<img src="Images/SendRequest.png" alt="Send Request" width="300">
 
 ### Accept or Decline Request
-![Accept or Decline Request](Images/AcceptOrDeclineRequest.png)
+<img src="Images/AcceptOrDeclineRequest.png" alt="Accept or Decline Request" width="300">
 
 ### Open Chat
-![Open Chat](Images/OpenChat.png)
+<img src="Images/OpenChat.png" alt="Open Chat" width="300">
 
 ### Chat
-![Chat](Images/Chat.png)
-
-
-
+<img src="Images/Chat.png" alt="Chat" width="300">
